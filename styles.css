@@ -170,7 +170,7 @@ font-family: 'Proxima Nova Bold', Arial, sans-serif;
     left: 0;
     width: 100%;
     height: calc(67% - 1px);
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: transparent; /* Set background to transparent */
     z-index: 1;
     display: none;
     justify-content: flex-start;
