@@ -70,6 +70,19 @@ body, html {
     overflow: hidden;
 }
 
+@media (max-width: 1366px) {
+    .iphone-container {
+        max-width: 300px; /* Reduce the max-width for laptops */
+    }
+}
+
+/* Further adjust for smaller screens */
+@media (max-width: 1024px) {
+    .iphone-container {
+        max-width: 250px; /* Smaller size for smaller laptops */
+    }
+}
+
 .iphone-container::before {
     content: '';
     width: 100%;
