@@ -60,7 +60,7 @@ body, html {
 }
 
 .iphone-container {
-    width: 95vw;
+    width: 100%;
     max-width: 450px;
     aspect-ratio: 9 / 16;
     position: relative;
@@ -350,4 +350,15 @@ margin-top: -20px;
 .video-grid-2 a:hover img {
     transform: scale(1.05); /* Hover effect */
     transition: transform 0.3s ease;
+}
+
+.footer-credit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    font-size: 12px;
+    color: gray;
+    opacity: 0.8;
+    z-index: 10;
 }
