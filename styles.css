@@ -164,7 +164,7 @@ font-size: 19px;
 font-family: 'Proxima Nova Bold', Arial, sans-serif;
 }
 
-.below-line-container, .below-line-container-2 {
+.below-line-container, .below-line-container2 {
     position: absolute;
     top: calc(33% + 1px);
     left: 0;
@@ -183,7 +183,7 @@ font-family: 'Proxima Nova Bold', Arial, sans-serif;
     padding-top: 0;
 }
 
-.below-line-container.active, .below-line-container-2.active {
+.below-line-container.active, .below-line-container2.active {
     display: flex;
 }
 
