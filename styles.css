@@ -320,3 +320,34 @@ margin-top: -20px;
 .contact-button:hover img {
     content: url('images/icons/mailhover.png'); /* Change to the hover image */
 }
+
+.video-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr; /* One image per row */
+    gap: 1px; /* Gap between rows */
+    width: 100%; /* Full width of the container */
+    background-color: white;
+    margin-top: 0;
+}
+
+.video-grid-2 a {
+    display: block;
+    width: 100%; /* Make the link container full width */
+    height: auto; /* Height adjusts according to the content */
+    position: relative;
+    background-color: #ddd;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.video-grid-2 img {
+    width: 100%; /* Image takes the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the space without stretching */
+    display: block; /* Ensure no inline gaps */
+}
+
+.video-grid-2 a:hover img {
+    transform: scale(1.05); /* Hover effect */
+    transition: transform 0.3s ease;
+}
